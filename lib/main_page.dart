@@ -108,7 +108,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                 ), // Text
               ),
               onTap: () => Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => ForgotPasswordPage(),
+                builder: (context) => ForgetPasswordPage(),
               )),
             ),
             const SizedBox(
@@ -146,5 +146,19 @@ class _LoginWidgetState extends State<LoginWidget> {
       Utils.showSnackBar(e.message);
     }
     navigatorKey.currentState!.popUntil((route) => route.isFirst);
+  }
+}
+
+class ForgetPasswordPage extends StatefulWidget {
+  const ForgetPasswordPage({super.key});
+
+  @override
+  State<ForgetPasswordPage> createState() => _ForgetPasswordPageState();
+}
+
+class _ForgetPasswordPageState extends State<ForgetPasswordPage> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
   }
 }
