@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "637760658629",
+    "project_id": "login-ac129",
+    "storage_bucket": "login-ac129.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637760658629:android:d7e74ae8d900ad2162a4ac",
+        "android_client_info": {
+          "package_name": "com.example.google_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvQeqcsIS-mG6nWKUd65XowZjxaQhic0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
